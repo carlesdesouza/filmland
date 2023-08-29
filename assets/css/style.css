@@ -1,12 +1,6 @@
-/*-----------------------------------*\
- * #style.css
-\*-----------------------------------*/
-
 /**
  * copyright 2023 Carles De Souza
  */
-
-
 
 
 
@@ -1159,6 +1153,17 @@ body.active { overflow: hidden; }
  * responsive for large than 550px screen
  */
 
+ @media (min-width: 280px) {
+    /**
+   * HERO
+   */
+
+  .hero { 
+    min-height: unset;
+    background-position: right;
+  }
+ }
+
 @media (min-width: 550px) {
 
   /**
@@ -1196,8 +1201,6 @@ body.active { overflow: hidden; }
   /**
    * HERO
    */
-
-  .hero { min-height: unset; }
 
   .hero-content { margin-top: 20px; }
 
@@ -1466,8 +1469,6 @@ body.active { overflow: hidden; }
   /**
    * HERO
    */
-
-  .hero { background-position: right; }
 
   .hero .container { width: 950px; }
 
